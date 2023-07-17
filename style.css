@@ -1,0 +1,30 @@
+body {
+    font-family: 'Abril Fatface', cursive;
+    background-color: rgb(244, 223, 236);
+    color: #5f0707;
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #png-container {
+    position: relative;
+    display: none;
+  }
+  
+  .title {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+  }
+
+  button {
+    border-radius: 50px;
+    padding: 15px 30px;
+  }
